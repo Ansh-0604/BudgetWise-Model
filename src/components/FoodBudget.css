@@ -1,0 +1,72 @@
+.food-budget-container {
+    text-align: center;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .upload-box {
+    display: inline-block;
+    padding: 20px;
+    border: 2px dashed #ff8c00;
+    border-radius: 10px;
+    background: #fff3cd;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .upload-box input {
+    display: none;
+  }
+  
+  .result-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e6f7ff;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .food-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffa500;
+  }
+  
+  .loading-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .result-content {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:nth-child(1) {
+    background: #ff8c00;
+    color: white;
+  }
+  
+  button:nth-child(2) {
+    background: #007bff;
+    color: white;
+  }
+  

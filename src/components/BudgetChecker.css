@@ -1,0 +1,98 @@
+.budget-checker-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.upload-box {
+  border: 2px dashed #4CAF50;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.uploaded-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.options {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.log-expense-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+.check-afford-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.expense-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expense-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.expense-form input {
+  padding: 8px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.affordability-result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bottom-buttons {
+  margin-top: 15px;
+}
+
+.reupload-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.go-back-btn {
+  background-color: #607D8B;
+  color: white;
+}
